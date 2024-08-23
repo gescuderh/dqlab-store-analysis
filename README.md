@@ -1,6 +1,6 @@
 # DQLab Store Analysis
 
-[!Dashboard baseline](images/filtrado-all.JPG)
+![Dashboard baseline](images/filtrado-all.JPG)
 
 ## Descripción
 
