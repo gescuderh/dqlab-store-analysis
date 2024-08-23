@@ -1,0 +1,1 @@
+Carpeta para guardado de imágenes del proyecto.
