@@ -81,6 +81,12 @@ product_sub_category: sub categoría del producto adquirido.
 
 ## Vistas del dashboard con filtros aplicados
 
+1. Filtrado por año
+![Dashboard baseline](images/filtrado-year.JPG)
+2. Filtrado por trimestre
+![Dashboard baseline](images/filtrado-quarter.JPG)
+3. Filtrado por mes
+![Dashboard baseline](images/filtrado-month.JPG)
 
 ## EDA (Exploratory Data Analysis)
 
@@ -90,3 +96,4 @@ product_sub_category: sub categoría del producto adquirido.
 4. Identificar los clientes más valiosos y su comportamiento.
 5. Determinar el impacto de los descuentos en las ventas.
 6. Identificar patrones estacionales en las ventas.
+
