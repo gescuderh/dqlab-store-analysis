@@ -78,3 +78,15 @@ product_sub_category: sub categoría del producto adquirido.
    ```bash
    jupyter notebook notebooks/dqlab-store-analysis.ipynb
    ```
+
+## Vistas del dashboard con filtros aplicados
+
+
+## EDA (Exploratory Data Analysis)
+
+1. Evaluar la tendencia de ventas a lo largo de los últimos 3 años.
+2. Determinar la rentabilidad de las ventas considerando descuento y el volumen de ventas.
+3. Identificar qué productos y categorías son más rentables y populares.
+4. Identificar los clientes más valiosos y su comportamiento.
+5. Determinar el impacto de los descuentos en las ventas.
+6. Identificar patrones estacionales en las ventas.
