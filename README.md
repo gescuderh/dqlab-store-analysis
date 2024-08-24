@@ -94,7 +94,7 @@ Puesto que esta base de datos consta de una única tabla se propone desarrollar 
 
 ## EDA (Exploratory Data Analysis)
 
-1. Evaluar la tendencia de ventas a lo largo de los últimos 3 años.
+1. Evaluar la tendencia de ventas a lo largo de los últimos 4 años.
 2. Determinar la rentabilidad de las ventas considerando descuento y el volumen de ventas.
 3. Identificar qué productos y categorías son más rentables y populares.
 4. Identificar los clientes más valiosos y su comportamiento.
