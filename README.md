@@ -30,25 +30,25 @@ Puesto que esta base de datos consta de una única tabla se propone desarrollar 
 
 ## Descripción del Dataset
 
-order_id: número único identificador de pedido.
+**order_id**: número único identificador de pedido.
 
-order_status: estado del pedido (finalizado, devuelto o cancelado)
+**order_status**: estado del pedido (finalizado, devuelto o cancelado)
 
-customer: nombre y apellido del cliente.
+**customer**: nombre y apellido del cliente.
 
-order_date: fecha del pedido.
+**order_date**: fecha del pedido.
 
-order_quantity: cantidad de productos comprados en un pedido en particular.
+**order_quantity**: cantidad de productos comprados en un pedido en particular.
 
-sales: ventas generadas en un pedido en particular, se utiliza como moneda la Rupia Indonesia.
+**sales**: ventas generadas en un pedido en particular, se utiliza como moneda la Rupia Indonesia.
 
-discount: porcentaje de descuento aplicado en el pedido.
+**discount**: porcentaje de descuento aplicado en el pedido.
 
-discount_value: ventas multiplicadas por el descuento, se utiliza como moneda la Rupia Indonesia
+**discount_value**: ventas multiplicadas por el descuento, se utiliza como moneda la Rupia Indonesia
 
-product_category: categoría del producto adquirido.
+**product_category**: categoría del producto adquirido.
 
-product_sub_category: subcategoría del producto adquirido.
+**product_sub_category**: subcategoría del producto adquirido.
 
 ## Cómo Ejecutar el Proyecto
 1. Clona el repositorio:
