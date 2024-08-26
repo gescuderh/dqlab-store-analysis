@@ -86,11 +86,11 @@ Puesto que esta base de datos consta de una única tabla se propone desarrollar 
 ## Vistas del dashboard con filtros aplicados
 
 1. Filtrado por año
-![Dashboard baseline](images/filtrado-year.JPG)
+
 2. Filtrado por trimestre
-![Dashboard baseline](images/filtrado-quarter.JPG)
+
 3. Filtrado por mes
-![Dashboard baseline](images/filtrado-month.JPG)
+
 
 ## EDA (Exploratory Data Analysis)
 
