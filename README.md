@@ -102,7 +102,7 @@ Puesto que esta base de datos consta de una única tabla se propone desarrollar 
 4. Filtrado por categoría de producto Technology y año 2012
 ![Dashboard filtrado technology 2012](images/filtrado-technology-2012.JPG)
 5. Filtrado por subcategoría de producto (Table), año 2011 y mes Mayo
-![Dashboard filtrado table 2011 Mayo](images/filtrado-table-2011-mayo.JPG)
+![Dashboard filtrado table 2011 Mayo](images/filtrado-table-mayo-2011.JPG)
 6. Filtrado por cliente (Deborah Brumfield) y año 2011
 ![Dashboard filtrado por customer Deborah Brumfield 2011](images/filtrado-selectedcustomer-deborahbrumfield-2011.JPG)
 
