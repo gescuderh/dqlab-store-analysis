@@ -24,11 +24,11 @@ Este dataset proporciona datos históricos de ventas desde 2009 hasta 2012. Los 
 
 ## Consideraciones iniciales (IMPORTANTE)
 
-- Para el cálculo de Net sales, Gross sales, Total discounts, Avg discount applied, Orders with discount, Orders without discount, Avg products per order, Avg Ticket, Customer lifespan y Projected CLV 2013 se han tenido únicamente en cuenta aquellos pedidos que han sido completados, es decir, aquellos pedidos cuyo valor de campo order_status es "Order Finished".
+- Para el cálculo de las métricas: Net sales, Gross sales, Total discounts, Avg discount applied, Orders with discount, Orders without discount, Avg products per order, Avg Ticket, Customer lifespan y Projected CLV 2013 se han tenido únicamente en cuenta aquellos pedidos que han sido completados, es decir, aquellos pedidos cuyo valor de campo order_status es "Order Finished".
 - Consideraremos los pedidos cuyo valor de campo order_status es "Order Returned" como aquellos pedidos cuyos productos se han añadido al carrito pero no se ha finalizado la compra. Por lo tanto, estos registros no se tienen en cuenta para el cálculo métricas anteriormente mencionadas. La métrica Return rate, en este caso, se tratará del porcentaje de pedidos que no se han finalizado.
 - En el caso de los pedidos cuyo valor de campo order_status es "Order Cancelled", ya que se generan dos registros con el mismo order_id: uno con "Order Finished" y otro con "Order Cancelled"; estos registros no se tienen en cuenta en cuenta para el cálculo de las métricas anteriormente mencionadas.
 - La métrica Customer lifespan indica la duración de la relación del cliente seleccionado o del conjunto total de clientes con la empresa.
-- La métrica Projected CLV 2013 indica el valor estimado a futuro, para el año 2013, del cliente seleccionado o del conjunto total de clientes, es decir, se trata de una estimación de las ventas que se van a generar en el próximo año basándonos en dos métricas: Finished Avg Ticket y Finished Avg Orders Per Day (el promedio del ticket medio y el promedio de ordenes por día), siempre teniendo como condición las anteriores mencionadas sobre lo que consideramos un pedido como válido.
+- La métrica Projected CLV 2013 indica el valor estimado a futuro, para el año 2013, del cliente seleccionado o del conjunto total de clientes, es decir, se trata de una estimación de las ventas que se van a generar en el próximo año basándonos en dos métricas: Finished Avg Ticket y Finished Avg Orders Per Day (el promedio del ticket medio y el promedio de pedidos por día), siempre teniendo como condición las anteriores mencionadas sobre lo que consideramos un pedido como válido.
 
 ## Consideraciones futuras
 
@@ -40,7 +40,7 @@ Puesto que esta base de datos consta de una única tabla se propone desarrollar 
 
 **order_id**: número único identificador de pedido.
 
-**order_status**: estado del pedido (finalizado, devuelto o cancelado)
+**order_status**: estado del pedido (finalizado, devuelto o cancelado).
 
 **customer**: nombre y apellido del cliente.
 
