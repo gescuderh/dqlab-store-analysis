@@ -40,7 +40,10 @@ Puesto que esta base de datos consta de una única tabla se propone desarrollar 
 
 **order_id**: número único identificador de pedido.
 
-**order_status**: estado del pedido (finalizado, devuelto o cancelado).
+**order_status**: estado del pedido.
+   - finished: pedido con venta finalizada.
+   - returned: pedido con productos añadidos a la cesta pero no se ha finalizado la venta.
+   - cancelled: pedido cuya venta se ha finalizado previamente pero finalmente ha sido cancelado.
 
 **customer**: nombre y apellido del cliente.
 
