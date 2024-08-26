@@ -91,7 +91,7 @@ Puesto que esta base de datos consta de una única tabla se propone desarrollar 
    jupyter notebook notebooks/dqlab-store-analysis.ipynb
    ```
 
-## Vistas del dashboard con filtros aplicados
+## Ejemplos de vistas del dashboard con filtros aplicados
 
 1. Filtrado por año
 ![Dashboard filtrado year](images/filtrado-year.JPG)
@@ -99,6 +99,12 @@ Puesto que esta base de datos consta de una única tabla se propone desarrollar 
 ![Dashboard filtrado quarter](images/filtrado-quarter.JPG)
 3. Filtrado por mes
 ![Dashboard filtrado month](images/filtrado-month.JPG)
+4. Filtrado por categoría de producto Technology y año 2012
+![Dashboard filtrado technology 2012](images/filtrado-technology-2012.JPG)
+5. Filtrado por subcategoría de producto (Table), año 2011 y mes Mayo
+![Dashboard filtrado table 2011 Mayo](images/filtrado-table-2011-mayo.JPG)
+6. Filtrado por cliente (Deborah Brumfield) y año 2011
+![Dashboard filtrado por customer Deborah Brumfield 2011](images/filtrado-selectedcustomer-deborahbrumfield-2011.JPG)
 
 ## EDA (Exploratory Data Analysis)
 
