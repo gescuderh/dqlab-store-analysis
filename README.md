@@ -10,8 +10,10 @@ Este dataset proporciona datos históricos de ventas desde 2009 hasta 2012. Los 
 
 **Este proyecto incluye:**
 1. La revisión de la consistencia de la base de datos y su limpieza, si se necesita, mediante Jupyter Lab.
-2. Un dashboard elaborado en PowerBI donde se realiza un análisis estacional de las ventas netas, se analizan las categorías de producto y productos más rentables y populares, se identifican los clientes más valiosos y su valor estimado de por vida, se analiza el desempeño de los pedidos para evaluar la eficiencia en la gestión de pedidos y la satisfacción del cliente y se analiza el impacto de los descuentos en las ventas.
-3. Una hoja de consultas a la base de datos en lenguaje SQL para realizar diferentes comprobaciones de la veracidad de los datos obtenidos en PowerBI. 
+2. Establecer consideraciones iniciales a tener en cuenta para el desarrollo del proyecto.
+3. Un dashboard elaborado en PowerBI donde se realiza un análisis estacional de las ventas netas, se analizan las categorías de producto y productos más rentables y populares, se identifican los clientes más valiosos y su valor estimado de por vida, se analiza el desempeño de los pedidos para evaluar la eficiencia en la gestión de pedidos y la satisfacción del cliente y se analiza el impacto de los descuentos en las ventas.
+4. Una hoja de consultas a la base de datos en lenguaje SQL para realizar diferentes comprobaciones de la veracidad de los datos obtenidos en PowerBI.
+5. Establecer consideraciones futuras para añadir complejidad al proyecto en el futuro.
 
 ## Objetivos
 
