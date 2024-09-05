@@ -98,17 +98,22 @@ Puesto que esta base de datos consta de una única tabla se propone desarrollar 
 
 ## Ejemplos de vistas del dashboard con filtros aplicados
 
-1. Filtrado por año
+1. Filtrado por año 2010
 ![Dashboard filtrado year](images/filtrado-year.JPG)
-2. Filtrado por trimestre
+
+En el año 2010 se obtienen unas ventas netas de 4.058,93 millones de Rupias después de aplicar los descuentos por valor de 197,49 millones. En total se registraron 1393 órdenes con una suma de 34.898 productos, de lás cuales se completaron 1.248 órdenes y 145 órdenes fueron devueltas, lo que corresponde a una tasa de devoluciones del 10,41% en 2010. Del total de órdenes completadas, a 1.134 órdenes se les aplicó un descuento que de media fue un 4,19%. La media de productos por órden fue de 25 mientras que el ticket medio fue de 3,25 millones, lo que supone un decrecimiento del 12,30% respecto al ticket medio del año 2009.
+
+En lo que respecta a la parte gráfica, observamos que los meses de mayor venta fueron Enero, Septiembre y Diciembre. La categoría de producto con mayor representación sobre las ventas netas fue Technology y el TOP3 subcategorías de producto con mayor participación en el total de ventas fueron: Office Machines, Chairs & Chairmats y Telephones & Communication. Por último, del total de clientes que compraron en nuestra tienda (624), el cliente con mayor gasto en la tienda fue Karen Carlisle.
+
+3. Filtrado por trimestre
 ![Dashboard filtrado quarter](images/filtrado-quarter.JPG)
-3. Filtrado por mes
+4. Filtrado por mes
 ![Dashboard filtrado month](images/filtrado-month.JPG)
-4. Filtrado por categoría de producto Technology y año 2012
+5. Filtrado por categoría de producto Technology y año 2012
 ![Dashboard filtrado technology 2012](images/filtrado-technology-2012.JPG)
-5. Filtrado por subcategoría de producto (Table), año 2011 y mes Mayo
+6. Filtrado por subcategoría de producto (Table), año 2011 y mes Mayo
 ![Dashboard filtrado table 2011 Mayo](images/filtrado-table-mayo-2011.JPG)
-6. Filtrado por cliente (Deborah Brumfield) y año 2011
+7. Filtrado por cliente (Deborah Brumfield) y año 2011
 ![Dashboard filtrado por customer Deborah Brumfield 2011](images/filtrado-selectedcustomer-deborahbrumfield-2011.JPG)
 
 ## EDA (Exploratory Data Analysis)
