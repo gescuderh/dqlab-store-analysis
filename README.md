@@ -122,17 +122,25 @@ En lo que respecta a la parte gráfica, observamos que Abril no ha sido uno de l
 7. Filtrado por categoría de producto Technology y año 2012
 ![Dashboard filtrado technology 2012](images/filtrado-technology-2012.JPG)
 
+Filtrando por la categoría de producto Technology para el año 2012 obtenemos los siguientes resultados. Las ventas netas de Technology en 2012 fueron de 1.834,22 millones de Rupias después de aplicar 95,28 millones en descuentos. Se obtuvieron un total de 335 órdenes con 8.761 productos, de las cuales 302 órdenes se finalizaron y 33 fueron devueltas, lo que supone una tasa de devoluciones del 9,85%. Del total de órdenes completadas (302), en 267 órdenes se aplicó descuento con una media del 3,49%. La media de productos de Technology por órden en 2012 fue de 26 y el ticket medio fue de 6,07 millones, un 1,65% menos que en 2011.
 
+En lo que respecta a la parte gráfica, observamos que el mes que acumula mayores ventas en Technology es Mayo. Technology respresenta el 40,92% de las ventas en 2012 y la subcategoría de producto estrella es Office Machines. Del total de clientes de 2012, 277 adquirieron productos de la categoría Technology y el cliente con mayor gasto en esta categoría de producto en 2012 fue Craig Carreira.
 
-9. Filtrado por subcategoría de producto (Table), año 2011 y mes Mayo
+9. Filtrado por subcategoría de producto (Tables), año 2011 y mes Mayo
 ![Dashboard filtrado table 2011 Mayo](images/filtrado-table-mayo-2011.JPG)
 
+Filtrando por subcategoría de producto Tables, en el año 2011 y en el mes de Mayo obtenemos los siguientes resultados. Las ventas netas en Tables fue de 79,75 millones de Rupias después de aplicar 6,17 millones de descuentos. El número total de órdenes fue de 5 con un total de 134 productos, de las cuales 4 órdenes se finalizaron y 1 se devolvió, lo que supone una tasa de devolución del 20% en el mes de Mayo de 2011. Del total de órdenes completadas (4), que suman 130 productos, en las 4 se aplicó un descuento que de media es del 7,75%. De media se registraron 33 productos por órden con un ticket medio de 19,94 millones lo que supone un incremento del 1.805,63% respecto a Mayo de 2010.
 
+En lo que respecta a la parte gráfica, observamos que en el año 2011 el mes de Mayo es el que registra mayores ventas en Tales, muy similares a Agosto. De la categoría Furniture, las ventas de Tables representan el 23,7% del total. El cliente que más gasto ha hecho en Tables en el mes de Mayo de 2011 ha sido Dan Campbell.
 
 11. Filtrado por cliente (Deborah Brumfield) y año 2011
 ![Dashboard filtrado por customer Deborah Brumfield 2011](images/filtrado-selectedcustomer-deborahbrumfield-2011.JPG)
 
+En este último ejemplo utilizamos el filtro avanzado de cliente. Hemos seleccionado a la cliente Deborah Brumfield y vamos a analizar sus datos en el año 2011. En 2011, la tienda ha percibido por parte de esta clienta un total de 91,08 millones de Rupias en ventas después de aplicar 6,58 millones en descuentos. Deborah realizó 6 órdenes con 203 productos adquiridos, de las cuales todas fueron completadas y en 4 de ellas aplicó descuentos a una media de 2,83%. El número de productos por órden fue de 34 mientras que el ticket medio fue de 15,18 millones, lo que significa un incremento en el ticket medio del 5,15% respecto a su actividad en 2010.
 
+En lo que respecta a la parte gráfica, observamos que en 2011 su momento de mayor compra fue Marzo por encima de los 50 millones. La categoría de producto más demandada por la clienta este año fue Technology (76,84% del total de ventas) y la subcategoría de producto estrella fue Capiers % Fax. Del total de clientes que compraron en la tienda en 2011 (605), Deborah ocupa la primera posición en cuanto a gasto. 
+
+Por último, observamos que la relación total de la clienta con la empresa ha sido de 981 días y se estima que la clienta generará 67,79 millones en ventas para la empresa en 2013.
 
 ## EDA (Exploratory Data Analysis)
 
