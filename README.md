@@ -26,9 +26,10 @@ Este dataset proporciona datos históricos de ventas desde 2009 hasta 2012. Los 
 - Determinar el impacto de los descuentos en las ventas.
 - Identificar patrones estacionales en las ventas.
 
-## Consideraciones iniciales (IMPORTANTE)
+## Consideraciones iniciales
 
-- Para el cálculo de las métricas: Net sales, Gross sales, Total discounts, Avg discount applied, Orders with discount, Orders without discount, Avg products per order, Avg Ticket, Customer lifespan y Projected CLV 2013 se han tenido únicamente en cuenta aquellos pedidos que han sido completados, es decir, aquellos pedidos VÁLIDOS, aquellos order_id cuyo valor de campo order_status es "Order Finished" y que a su vez no son "Order Cancelled".
+- La idea principal de la primera versión del proyecto es la creación de una gran cantidad de métricas, sacar el máximo jugo posible a los datos de que disponemos, y modelar un dashboard dinámico y de fácil uso e interpretación por cualquier usuario.
+- Para el cálculo de las métricas: Net sales, Gross sales, Total discounts, # of orders, Avg discount applied, Orders with discount, Orders without discount, Avg products per order, Avg Ticket, Customer lifespan y Projected CLV 2013 se han tenido únicamente en cuenta aquellos pedidos que han sido completados, es decir, aquellos pedidos VÁLIDOS, aquellos order_id cuyo valor de campo order_status es "Order Finished" y que a su vez no son "Order Cancelled".
 - Consideraremos los pedidos cuyo valor de campo order_status es "Order Returned" como aquellos pedidos cuyos productos se han añadido al carrito pero no se ha finalizado la compra. Por lo tanto, estos registros no se tienen en cuenta para el cálculo métricas anteriormente mencionadas. La métrica Return rate, en este caso, se tratará del porcentaje de pedidos que no se han finalizado.
 - En el caso de los pedidos cuyo valor de campo order_status es "Order Cancelled", ya que se generan dos registros con el mismo order_id: uno con "Order Finished" y otro con "Order Cancelled"; estos registros no se tienen en cuenta en cuenta para el cálculo de las métricas anteriormente mencionadas.
 - La métrica Customer lifespan indica la duración de la relación del cliente seleccionado o del conjunto total de clientes con la empresa.
@@ -144,7 +145,7 @@ En lo que respecta a la parte gráfica, observamos que en 2011 su momento de may
 
 Por último, observamos que la relación total de la clienta con la empresa ha sido de 981 días y se estima que la clienta generará 67,79 millones en ventas para la empresa en 2013.
 
-## EDA (Exploratory Data Analysis)
+## Exploratory Data Analysis (en curso)
 
 Contestaremos a los siguientes puntos una vez completemos la base de datos con las nuevas tablas de clientes y productos:
 
