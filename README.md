@@ -13,9 +13,11 @@ Este dataset proporciona datos históricos de ventas desde 2009 hasta 2012. Los 
 2. Establecer consideraciones iniciales a tener en cuenta para el desarrollo del proyecto.
 3. Un dashboard elaborado en PowerBI donde se realiza un análisis estacional de las ventas netas, se analizan las categorías de producto y productos más rentables y populares, se identifican los clientes más valiosos y su valor estimado de por vida, se analiza el desempeño de los pedidos para evaluar la eficiencia en la gestión de pedidos y la satisfacción del cliente y se analiza el impacto de los descuentos en las ventas.
 4. Una hoja de consultas a la base de datos en lenguaje SQL para realizar diferentes comprobaciones de la veracidad de los datos obtenidos en PowerBI.
-5. Establecer consideraciones futuras para añadir complejidad al proyecto en el futuro.
+5. Un análisis de los resultados obtenidos mediante la aplicación de diferentes filtros a la visualización.
+6. Establecer consideraciones futuras para añadir complejidad al proyecto en el futuro. (en proceso)
+7. Realizar un análisis exploratorio de los datos (EDA). (en proceso)
 
-## Objetivos
+## Objetivos Finales
 
 - Evaluar la tendencia de ventas a lo largo de los últimos 3 años.
 - Determinar la rentabilidad de las ventas considerando descuento y el volumen de ventas.
@@ -26,7 +28,7 @@ Este dataset proporciona datos históricos de ventas desde 2009 hasta 2012. Los 
 
 ## Consideraciones iniciales (IMPORTANTE)
 
-- Para el cálculo de las métricas: Net sales, Gross sales, Total discounts, Avg discount applied, Orders with discount, Orders without discount, Avg products per order, Avg Ticket, Customer lifespan y Projected CLV 2013 se han tenido únicamente en cuenta aquellos pedidos que han sido completados, es decir, aquellos pedidos cuyo valor de campo order_status es "Order Finished".
+- Para el cálculo de las métricas: Net sales, Gross sales, Total discounts, Avg discount applied, Orders with discount, Orders without discount, Avg products per order, Avg Ticket, Customer lifespan y Projected CLV 2013 se han tenido únicamente en cuenta aquellos pedidos que han sido completados, es decir, aquellos pedidos VÁLIDOS, aquellos order_id cuyo valor de campo order_status es "Order Finished" y que a su vez no son "Order Cancelled".
 - Consideraremos los pedidos cuyo valor de campo order_status es "Order Returned" como aquellos pedidos cuyos productos se han añadido al carrito pero no se ha finalizado la compra. Por lo tanto, estos registros no se tienen en cuenta para el cálculo métricas anteriormente mencionadas. La métrica Return rate, en este caso, se tratará del porcentaje de pedidos que no se han finalizado.
 - En el caso de los pedidos cuyo valor de campo order_status es "Order Cancelled", ya que se generan dos registros con el mismo order_id: uno con "Order Finished" y otro con "Order Cancelled"; estos registros no se tienen en cuenta en cuenta para el cálculo de las métricas anteriormente mencionadas.
 - La métrica Customer lifespan indica la duración de la relación del cliente seleccionado o del conjunto total de clientes con la empresa.
@@ -143,6 +145,8 @@ En lo que respecta a la parte gráfica, observamos que en 2011 su momento de may
 Por último, observamos que la relación total de la clienta con la empresa ha sido de 981 días y se estima que la clienta generará 67,79 millones en ventas para la empresa en 2013.
 
 ## EDA (Exploratory Data Analysis)
+
+Contestaremos a los siguientes puntos una vez completemos la base de datos con las nuevas tablas de clientes y productos:
 
 1. Evaluar la tendencia de ventas a lo largo de los últimos 4 años.
 2. Determinar la rentabilidad de las ventas considerando descuento y el volumen de ventas.
