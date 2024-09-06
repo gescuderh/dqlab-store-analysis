@@ -40,6 +40,7 @@ Este dataset proporciona datos históricos de ventas desde 2009 hasta 2012. Los 
 Puesto que esta base de datos consta de una única tabla se propone desarrollar una base de datos más completa con las siguientes tablas:
 - Tabla de clientes: esta tabla contendrá información detallada de cada cliente (nombre, apellido, edad, estado civil, salario anual, país, localidad, email)
 - Tabla de Productos: esta tabla contendrá información detallada de cada producto (producto, precio, coste de venta)
+- Creación de un dashboard dinámico con diferentes páginas para el análisis en específico de cada uno de los objetivos establecidos.
 
 ## Descripción del dataset original
 
