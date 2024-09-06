@@ -41,7 +41,7 @@ Puesto que esta base de datos consta de una única tabla se propone desarrollar 
 - Tabla de clientes: esta tabla contendrá información detallada de cada cliente (nombre, apellido, edad, estado civil, salario anual, país, localidad, email)
 - Tabla de Productos: esta tabla contendrá información detallada de cada producto (producto, precio, coste de venta)
 
-## Descripción del Dataset
+## Descripción del dataset original
 
 **order_id**: número único identificador de pedido.
 
@@ -65,39 +65,6 @@ Puesto que esta base de datos consta de una única tabla se propone desarrollar 
 **product_category**: categoría del producto adquirido.
 
 **product_sub_category**: subcategoría del producto adquirido.
-
-## Cómo Ejecutar el Proyecto
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/gescuderh/dqlab-store-analysis.git
-
-2. Navega al directorio del proyecto:
-   ```bash
-   cd dqlab-store-analysis
-
-4. Instala las dependencias:
-
-   Crea un archivo `requirements.txt` para listar las dependencias del proyecto:
-
-   ```text
-   jupyter
-   numpy
-   pandas 
-   os
-   seaborn
-   matplotlib.pyplot
-   missingno
-   warnings
-   ````
-   
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-6. Ejecuta el notebook:
-   ```bash
-   jupyter notebook notebooks/dqlab-store-analysis.ipynb
-   ```
 
 ## Ejemplos de vistas del dashboard con filtros aplicados
 
