@@ -17,15 +17,6 @@ Este dataset proporciona datos históricos de ventas desde 2009 hasta 2012. Los 
 6. Establecer consideraciones futuras para añadir complejidad al proyecto en el futuro. (en proceso)
 7. Realizar un análisis exploratorio de los datos (EDA). (en proceso)
 
-## Objetivos Finales
-
-- Evaluar la tendencia de ventas a lo largo de los últimos 3 años.
-- Determinar la rentabilidad de las ventas considerando descuento y el volumen de ventas.
-- Identificar qué productos y categorías son más rentables y populares.
-- Identificar los clientes más valiosos y su comportamiento.
-- Determinar el impacto de los descuentos en las ventas.
-- Identificar patrones estacionales en las ventas.
-
 ## Consideraciones iniciales
 
 - La idea principal de la primera versión del proyecto es la creación de una gran cantidad de métricas, sacar el máximo jugo posible a los datos de que disponemos, y modelar un dashboard dinámico y de fácil uso e interpretación por cualquier usuario.
@@ -38,7 +29,7 @@ Este dataset proporciona datos históricos de ventas desde 2009 hasta 2012. Los 
 ## Consideraciones futuras
 
 Puesto que esta base de datos consta de una única tabla se propone desarrollar una base de datos más completa con las siguientes tablas:
-- Tabla de clientes: esta tabla contendrá información detallada de cada cliente (nombre, apellido, edad, estado civil, salario anual, país, localidad, email)
+- Tabla de clientes: esta tabla contendrá información detallada de cada cliente (nombre, edad, salario anual, país, localidad)
 - Tabla de Productos: esta tabla contendrá información detallada de cada producto (producto, precio, coste de venta)
 - Creación de un dashboard dinámico con diferentes páginas para el análisis en específico de cada uno de los objetivos establecidos.
 
